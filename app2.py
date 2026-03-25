@@ -112,6 +112,9 @@ def ask():
         db = SQLDatabase.from_uri("sqlite:///db.sqlite3")
         schema = db.get_table_info()
 
+        db = SQLDatabase.from_uri("sqlite:///db.sqlite3")
+        print(db.get_usable_table_names())
+
         # Step 3: Generate SQL
         sql_query = generate_sql_query(question_en, schema)
         print("SQL : ----------!!!!! this is the SQL query : ", sql_query)
