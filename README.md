@@ -258,3 +258,7 @@ IMPORTANT RULES:
 Write a SQL query to answer:
 {question}
 ```
+### 👨‍💻 AUTHOR
+
+#### Reda Malki
+#### Final Year Master’s Student in Data Science & Intelligent Systems
